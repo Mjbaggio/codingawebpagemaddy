@@ -1,0 +1,281 @@
+@charset "UTF-8";
+body {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+
+		background-color: #f9e1c4 ;
+		color: #461e0f;
+		margin: 0; 
+			
+			}
+		h1 {
+			font-family: "Playfair Display", system-ui;
+  			font-optical-sizing: auto;
+  			font-weight: bold;
+  			font-style: italic;
+			font-size: 40px;
+			color: #8C442A;
+			padding-left: 20%;
+			padding-right: 20%;
+			text-align: left;
+			line-height: 1.1;
+			
+			}
+
+
+		h3 {
+			font-family: "Playfair Display", system-ui;
+  			font-optical-sizing: auto;
+  			font-weight: bold;
+  			font-style: normal;
+			font-size: 30px;
+			color: #024059;
+			padding-left: 20%;
+			padding-right: 20%;
+			}
+
+		h4 {
+			font-family: "Playfair Display", system-ui;
+  			font-optical-sizing: auto;
+  			font-weight: 500;
+  			font-style: normal;
+			font-size: 20px;
+			color: #461e0f;
+			padding-left: 20%;
+			padding-right: 20%;
+			line-height: 15px;
+			padding-top: 1%;
+			
+			
+			}
+	h2 {
+			font-family: "Playfair Display", system-ui;
+  			font-optical-sizing: auto;
+  			font-weight: 500;
+  			font-style: normal;
+			font-size: 20px;
+			color: #646C8F;
+			padding-left: 20%;
+			padding-right: 20%;
+			line-height: 15px;
+			padding-top: 1%;
+		}
+		
+		h5 {
+			font-family: "Playfair Display", system-ui;
+  			font-optical-sizing: auto;
+  			font-weight: 500;
+  			font-style: normal;
+			font-size: 20px;
+			color: #461e0f;
+			padding-left: 20%;
+			padding-right: 20%;
+			line-height: 1px;
+			
+			}
+		h6 {
+			font-family: "Playfair Display", system-ui;
+  			font-optical-sizing: auto;
+  			font-weight: 500;
+			font-size: 25px;
+			padding-left: 20%;
+			padding-right: 20%;
+			line-height: 30px;
+			padding-top: 1%; 
+			color: #8C442A;
+			font-style: italic;
+			
+			}
+h7 {
+			font-family: "Playfair Display", system-ui;
+  			font-optical-sizing: auto;
+  			font-weight: 500;
+			font-size: 20px;
+			padding-left: 20%;
+			padding-right: 20%;
+			line-height: 25px;
+			padding-top: 1%; 
+			color: #8C442A;
+			font-style: normal;
+			
+			}
+
+		a { color: #024059 ; 
+			text-decoration: underline;
+			font-weight: bold ;
+			
+			}
+		p { padding-left: 20% ;
+			padding-right: 20%;
+			font-family: "Lato", sans-serif;
+  			font-weight: 400;
+  			font-style: normal;
+			line-height: 24px;
+			font-size: 20px;
+	
+			}
+			
+
+	a:hover { color: #BF7534 ; }
+	
+	footer {
+		
+		background-color: #024059 ;
+		color: #dde2f9 ; 
+		padding-top: 1%;
+		padding-bottom: 5%;
+		
+		}
+
+	header {
+		
+    padding-bottom: 0.5%;
+	padding-top: 0.5%;
+	background-size: 100%;
+		
+	
+}
+
+
+section {
+		
+		background-color: #F2B366;
+		color: #461e0f ; 
+		padding-top: 0.5%;
+		padding-bottom: 0.5%; 
+		margin-left: 0%;
+  		margin-right: 0%;
+		
+
+		}
+
+
+	center {
+  		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+ 		width: 50%;
+		}
+	.button a {
+	background-color: #024059;
+	color: #C5CED9;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	
+		}
+	.button a:hover {
+	background-color: #C5CED9;
+	color: #024059;
+		}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 150px;
+	padding-left: 150px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+		}
+.rightAlign {
+	float: right;
+	padding-right: 70px;
+	
+	
+}
+
+.leftAlign {
+	float: left;
+	padding-left: 100px;
+}
+
+
+.image-wrap{
+	position: static;
+	width: 100%;
+	max-width: 1500px;
+	min-width: 1000px;
+	height: 140px;
+	bottom: 50%;
+	left: 50%;
+	background-image: url("type1.png");
+	background-size: 100%;
+	background-position: 0% 7%;
+	background-repeat: no-repeat;
+	padding-top: 6%;
+	opacity: 100%;
+	background-color: #F2B366;
+	
+	}
+
+.thinking{
+	
+	width: 50%;
+	max-width: 500px;
+	min-width: 200px;
+	height: 350px;
+	bottom: 50%;
+	left: 50%;
+	padding-top: 6%;
+	opacity: 100%;
+	background-image: url("fonttype1.png");
+	background-size: 80%;
+	background-position: -10% 20%;
+	background-repeat: no-repeat;
+	
+	}
+
+.Loto{
+	
+	width: 50%;
+	max-width: 500px;
+	min-width: 200px;
+	height: 350px;
+	bottom: 50%;
+	left: 50%;
+	padding-top: 6%;
+	opacity: 100%;
+	background-image: url("fonttype2.png");
+	background-size: 80%;
+	background-position: -10% 20%;
+	background-repeat: no-repeat;
+	
+	}
+.pretty{
+	column-count: 2;
+	display: flex;
+	column-gap: 50px;
+	column-width: inherit;
+	padding-left: 20% ;
+			padding-right: 20%;
+			font-family: "Lato", sans-serif;
+  			font-weight: 400;
+  			font-style: normal;
+			line-height: 24px;
+			font-size: 20px;
+}
+
+.icon{
+	
+	width: 50%;
+	max-width: 90px;
+	min-width: 90px;
+	height: 100px;
+	bottom: 50%;
+	left: 50%;
+	padding-top: 6%;
+	opacity: 100%;
+	background-image: url("person_icon.png");
+	background-size: 60%;
+	background-position: 100% 10%;
+	background-repeat: no-repeat;
+	}
+
+
+
+
+
+
+
+
+

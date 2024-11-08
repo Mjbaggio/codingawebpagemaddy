@@ -210,6 +210,7 @@ section {
 	padding-right: 100px;
 	padding-top: 5%;
 	padding-bottom: 5%;
+	padding-left: 20%;
 	overflow: auto;
 }
 .leftAlign2 {
@@ -250,6 +251,17 @@ section {
 	background-image: url("thinkingfonts.GIF");
 	background-size: 50%;
 	background-position: 0% 20%;
+	background-repeat: no-repeat;
+ 	}
+.sweater{
+	
+	width: 100%;
+	height: 140px;
+	padding-top: 1%;
+	opacity: 100%;
+	background-image: url("coffeetime.GIF");
+	background-size: 100%;
+	background-position: 0% 0%;
 	background-repeat: no-repeat;
  	}
 
@@ -320,7 +332,7 @@ section {
 .referencesbold { 
 	padding-left: 20% ;
 	padding-right: 20%;
-	padding-top: 15% ;
+	padding-top: 1% ;
 	font-family: "Lato", sans-serif;
   	font-weight: 200;
   	font-style: normal;
@@ -339,6 +351,21 @@ section {
 		font-size: 20px;
 	
 			}
+.paddingtopsm { 
+		padding-left: 10% ;
+		padding-right: 10% ;
+		padding-top: 5%;
+		line-height: 21px;
+		font-size: 16px;
+		}
+.paddingtopverysm { 
+		padding-left: 10% ;
+		padding-right: 10% ;
+		padding-top: 1%;
+		line-height: 21px;
+		font-size: 16px;
+		}
+
 .paddingbottomsm { 
 		padding-left: 10% ;
 		padding-right: 10% ;
@@ -364,7 +391,7 @@ section {
 .paddingbottomverybig { 
 		padding-left: 20% ;
 		padding-right: 20% ;
-		padding-bottom: 25%;
+		padding-bottom: 20%;
 		font-family: "Lato", sans-serif;
   		font-weight: 400;
   		font-style: normal;
@@ -372,6 +399,14 @@ section {
 		font-size: 16px;
 	
 			}
+.paddingbottom { 
+		padding-left: 10% ;
+		padding-right: 10% ;
+		padding-bottom: 10%;
+		line-height: 21px;
+		font-size: 16px;
+		}
+
 
 .background2{
 	
@@ -381,6 +416,7 @@ section {
 	margin-left: 0%;
 	margin-right: 0%;
 	width:100%;
+	height:auto;
 	background-image: url("background2.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat; }
@@ -393,6 +429,7 @@ section {
 	margin-left: 0%;
 	margin-right: 0%;
 	width:100%;
+	height:auto;
 	background-image: url("background4.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat; }
@@ -405,6 +442,7 @@ section {
 	margin-left: 0%;
 	margin-right: 0%;
 	width:100%;
+	height:auto;
 	background-image: url("background6.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat; }
@@ -418,6 +456,7 @@ section {
 	margin-left: 0%;
 	margin-right: 0%;
 	width:100%;
+	height:auto;
 	background-image: url("background8.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat; }
@@ -430,6 +469,7 @@ section {
 	margin-left: 0%;
 	margin-right: 0%;
 	width:100%;
+	height:auto;
 	background-image: url("background12.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat; }
@@ -443,6 +483,7 @@ section {
 	margin-left: 0%;
 	margin-right: 0%;
 	width:100%;
+	height:auto;
 	background-image: url("background15.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat; }
@@ -455,6 +496,7 @@ section {
 	margin-left: 0%;
 	margin-right: 0%;
 	width:100%;
+	height:auto;
 	background-image: url("background11.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat; }
